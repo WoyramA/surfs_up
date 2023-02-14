@@ -2,7 +2,7 @@
 The Surfs_Up report captures the purpose, results and summary of weather analysis done in a Hawaiian town Oahu. Below is a detailed account of the data analysis and findings by Woyram for Mr W.Avy to convince him as an investor that the proposed business would thrive in Oahu.
 
 ## Overview
-Surfs_Up is a proposed Surf and Shake shop meant to provide surfboards and ice cream to locals and tourists in Oahu, Hawaii. Some weather analysis https://github.com/WoyramA/surfs_up/blob/main/climate_analysis.ipynb was initially required to insure the pricipal investor Mr W.Avy that the proposed Surf and Shake shop would run successfully. The detailed report below captures the weather pattern in Oahu, focusing on the temperature reported over the past months, especially June and December. 
+Surfs_Up is a proposed Surf and Shake shop meant to provide surfboards and ice cream to locals and tourists in Oahu, Hawaii. Some weather analysis https://github.com/WoyramA/surfs_up/blob/main/climate_analysis.ipynb was initially required to insure the pricipal investor Mr W.Avy that the proposed Surf and Shake shop would run successfully. The detailed report below captures the weather pattern in Oahu, focusing on the temperature reported over the past months, especially June and December as requested by Mr. W. Avy. 
 
 
 ## Results
