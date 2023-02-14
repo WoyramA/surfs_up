@@ -99,6 +99,36 @@ def temp_monthly():
     return jsonify(temps=temps)
 # End current session in command prompt, Run the flask run command in command prompt and copy link of web address into browser with end of route code in quotes at end of link
 
+# ROUTE 5
+# Statistics Route
+# Create route to report on minimum, average and maximum temperatures
+# Create routes
+@app.route("/api/v1.0/temp/<start>")
+@app.route("/api/v1.0/temp/<start>/<end>")
+
+# Create stats() function
+# Add parameters to function and set both to none
+# Create query to select min, avg and max temperatures from our SQLite database
+# Use if-not statement to determine starting and ending date
+# Unravel results in a one- dimensional array and convert to list 
+# jsonify our results and return them
+# Use astersk sel to multiple query min, avg and max temps
+# Calculate the temperature minimum, average, and maximum with the start and end dates
+def stats(start=None, end=None):
+    sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
+
+    if not end:
+        results = session.query(*sel).\
+            filter(Measurement.date >= start).all()
+        temps = list(np.ravel(results))
+        return jsonify(temps)
+
+    results = session.query(*sel).\
+        filter(Measurement.date >= start).\
+        filter(Measurement.date <= end).all()
+    temps = list(np.ravel(results))
+    return jsonify(temps)
+# End current session in command prompt, Run the flask run command in command prompt and copy link of web address into browser with end of route code /api/v1.0/temp/2017-06-01/2017-06-30
 
 
 
