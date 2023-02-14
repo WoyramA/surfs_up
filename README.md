@@ -10,8 +10,11 @@ The temperature statistics for the months of June and December for the year 2017
 
 ### June Temperature
 •	There were 1700 records of rainfall recorded in June, 2017.
+
 •	The minimum temperature for the month of June in the previous year (2017) was 64°F.
+
 •	The maximum temperature was 85°F. 
+
 •	June averaged a temperature of 74.94°F +/- SD = 3.25 as shown below in the June Temperature Table:
 
 
@@ -20,9 +23,12 @@ The temperature statistics for the months of June and December for the year 2017
 
 
 ### December Temperature 
-•	A total of 1517 rainfall counts were recorded in December, 2017
+•	A total of 1517 rainfall counts were recorded in December, 2017.
+
 •	The minimum temperature for the month of December in the year before(2017) was 56°F.
-•	The maximum temperature was 83°F. . 
+
+•	The maximum temperature was 83°F. 
+
 •	June averaged a temperature of 71.04°F +/- SD = 3.75 
 
 ![image](https://user-images.githubusercontent.com/114967995/218862984-7782e683-1f46-4a01-b29c-4896b20ba6e7.png)
